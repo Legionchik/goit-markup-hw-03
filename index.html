@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
     <link rel="stylesheet" href="./css/styles.css" />
@@ -16,21 +16,23 @@
   </head>
 
   <body>
-    <header>
-      <nav class="menu">
-        <a href="./index.html" class="logo"> Web <span class="studio">Studio</span> </a>
-        <ul class="menu-elements">
-          <li><a href="./index.html" class="menu-nav-index"> Studio</a> </li>
-          <li><a href="" class="menu-nav-index"> Portfolio</a> </li>
-          <li><a href="" class="menu-nav-index"> Contacts</a> </li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <ul class="social-links">
-          <li><a href="mailto:info@devstudio.com" class="email-telefon">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111" class="email-telefon">+11 (000) 111-11-11 </a></li>
-        </ul>
-      </address>
+    <header class="page-header">
+      <div class="container">    
+        <nav class="menu">
+          <a href="./index.html" class="logo"> Web <span class="studio">Studio</span> </a>
+         <ul class="menu-elements">
+           <li><a href="./index.html" class="menu-nav-index"> Studio</a> </li>
+           <li><a href="" class="menu-nav-index"> Portfolio</a> </li>
+           <li><a href="" class="menu-nav-index"> Contacts</a> </li>
+         </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="social-links">
+            <li><a href="mailto:info@devstudio.com" class="email-telefon">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111" class="email-telefon">+11 (000) 111-11-11 </a></li>
+          </ul>
+       </address>
+      </div> 
     </header>
     <main>
       <!-- Section-1 -->
@@ -75,11 +77,13 @@
       <!-- Sektion-3 -->
       <section class="section-sss">
         <h2 class="our-team">Our Team</h2>
-        <ul>
+        <ul class="cards-workers">
           <li class="image">
+            <div class="card">
             <img src="./images/img-3.jpg" alt="1-worker" width="264" />
             <h3 class="headteam">Mark Guerrero</h3>
             <p class="position">Product Designer</p>
+            </div>
           </li>
           <li class="image">
             <img src="./images/img-2.jpg" alt="2-worker" width="264" />
@@ -101,13 +105,13 @@
       <!-- Sektion-4 -->
       <section>
         <h2 class="our-portfolio">Our Portfolio</h2>
-        <ul>
-          <li>
+        <ul class="card-set">
+          <li class="item">
             <img src="./images/img4.jpg" alt="Banking App" width="360" />
             <h3 class="cart-title">Banking App</h3>
             <p class="cart-content">App</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/img5.jpg"
               alt="Cashless Payment"
@@ -116,7 +120,7 @@
             <h3 class="cart-title">Cashless Payment</h3>
             <p class="cart-content">Marketing</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/img6.jpg"
               alt="Meditation App"
@@ -125,7 +129,7 @@
             <h3 class="cart-title">Meditation App</h3>
             <p class="cart-content">App</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/img7.jpg"
               alt="Taxi Service"
@@ -134,7 +138,7 @@
             <h3 class="cart-title">Taxi Service</h3>
             <p class="cart-content">Marketing</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/img8.jpg"
               alt="Screen Illustrations"
@@ -143,7 +147,7 @@
             <h3 class="cart-title">Screen Illustrations</h3>
             <p class="cart-content">Design</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/img9.jpg"
               alt="Online Courses"

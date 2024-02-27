@@ -6,10 +6,31 @@ body {
   background-color: #fff;
 }
 
+img {
+	display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
 
 /* top-line-header */
-
-
+.page-header .container {
+  display: flex; 
+  justify-content: space-between;
+  align-items: baseline;
+}
 .menu {
 display: flex;
 flex-direction: row;
@@ -39,10 +60,13 @@ color: #4d5ae5;
 .menu-elements {
 
 display: flex;
+gap: 8px;
 flex-direction: column;
 background: #fff;
 text-align:  center;
 line-height: normal;
+display: flex;
+flex-direction: row;
 }
 
 .email-telefon {
@@ -56,6 +80,7 @@ line-height: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
   }
     .menu-nav-index:hover{
     color: #404bbf;
@@ -73,6 +98,14 @@ letter-spacing: 0.02em;
 color: #434455;
 font-style: normal;
 }
+
+.social-links { 
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+
 .social-links :hover {
   color: #404bbf;
 }
@@ -161,11 +194,22 @@ color: #434455;
   text-align: center;
   color: #2e2f42;
 }
-
+.cards-workers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 .image {
   background-color: #FFFFFF;
 }
-
+/* NEW */
+.card.no-gap {
+  display: block;
+}
+.card-image {
+  max-width: 100%;
+}
+/* NEW */
 .headteam {
 font-weight: 500;
 font-size: 20px;
@@ -195,6 +239,15 @@ text-align: center;
 color: #2e2f42;
 }
 
+.card-set{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.card-set .item {
+  width:calc((100% - 32px) / 3);
+}
 .cart-title {
 font-weight: 500;
 font-size: 20px;
