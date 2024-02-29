@@ -310,6 +310,13 @@ text-align: center;
 }
 
 /* <!-- Sektion-4 --> */
+
+.container-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  }
+
+
 .our-portfolio {
 font-weight: 700;
 font-size: 36px;
@@ -318,23 +325,34 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
 }
 
 .card-set{
   display: flex;
   flex-wrap: wrap; 
-  gap: 10px;
+  column-gap: 24px;
+  row-gap: 48px; 
 }
 
-.card-set .item {
-  width:calc((100% - 32px) / 3);
+.item {
+  width: calc((100% - 48px) / 3);
 }
+
+.app-title-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
+}
+
 .cart-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .cart-content {
 font-weight: 400;
@@ -350,6 +368,11 @@ color: #434455;
 background: #2e2f42;
 width: 1440px;
 height: 312px;
+
+}
+.container-footer {
+padding-top: 100px; 
+padding-bottom: 100px;
 }
 
 .footer-text {
@@ -363,4 +386,8 @@ color: #f4f4fd;
 
 .studio-footer {
   color: #f4f4fd;
+}
+.logo {
+  display: inline-block;
+  margin-bottom: 16px; 
 }
