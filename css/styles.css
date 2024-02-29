@@ -311,6 +311,10 @@ text-align: center;
 
 /* <!-- Sektion-4 --> */
 
+.section-ssss{
+  padding-top: 120px;
+  padding-bottom: 120px; 
+}
 .container-four {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -331,12 +335,12 @@ margin-bottom: 72px;
 .card-set{
   display: flex;
   flex-wrap: wrap; 
-  column-gap: 24px;
+  column-gap:  24px;
   row-gap: 48px; 
 }
 
 .item {
-  width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .app-title-name {
