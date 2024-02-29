@@ -33,6 +33,9 @@ ul {
   padding-left: 0%;
   list-style-type: none;
 }
+.container{
+  max-width:1158px;
+}
 
 /* top-line-header */
 .page-header .container {
@@ -59,8 +62,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5; 
-  text-transform: uppercase;
-  margin-right: 76px
+margin-right: 76px
 }
 
 .studio {
@@ -70,8 +72,7 @@ color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  text-transform: uppercase;
-}
+  }
 
 .menu-elements {
 
@@ -140,7 +141,8 @@ font-style: normal;
 /* <!-- Section-1 --> */
 
 .container .box-hero-image {
-padding: 188px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .box-hero-image {
@@ -188,13 +190,30 @@ background: #2e2f42;
 
 /* <!-- Section-2 --> */
 
+.container .light-bg {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .light-bg {
   width: 1440px;
   height: 732px; 
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.advantages {
+.advantages  {
+display: none;
 background-color: #F4F4FD;
+margin-bottom: 8px;
+}
+
+.text-box {
+display: flex;
+gap: 24px;
+}
+
+.text-box-element {
+  width: calc((100% - 72px) / 4); 
 }
 
 .feature-text {
@@ -204,6 +223,7 @@ background-color: #F4F4FD;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -217,6 +237,7 @@ color: #434455;
 /* <!-- Sektion-3 --> */
 .section-sss {
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 
 .our-team {
@@ -231,10 +252,16 @@ color: #434455;
 .cards-workers {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 24px;
 }
 .image {
   background-color: #FFFFFF;
+}
+
+.card-info-workers {
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* NEW */
 .card.no-gap {
@@ -251,6 +278,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-align: center; 
+margin-bottom: 8px
 }
 
 .position {
@@ -258,8 +287,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
 color: #434455;
+text-align: center;
 }
 
 /* <!-- Sektion-4 --> */
