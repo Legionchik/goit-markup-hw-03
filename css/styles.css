@@ -44,10 +44,15 @@ ul {
   align-items: baseline;
   border-bottom: 1px solid #e7e9fc;
   }
+
+  .page-header {
+    border-bottom: 1px solid #e7e9fc;
+  }
+
 .container{
- width: 1158px;
- padding: 0 15px 0 15px;
+width: 1158px;
 margin: 0 auto;
+padding: 0 15px;
 }
 
 .menu {
@@ -67,6 +72,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5; 
 margin-right: 76px
+padding: 24px 0;
 }
 
 .studio {
@@ -133,6 +139,7 @@ font-style: normal;
   display: flex;
   flex-direction: row;
   gap: 8px;
+  padding: 24px 0;
 }
 
 
@@ -144,6 +151,11 @@ font-style: normal;
 }
 
 /* <!-- Section-1 --> */
+
+.light-bg {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 
  .box-hero-image .cont {
   padding-top: 188px;
@@ -213,14 +225,16 @@ margin-bottom: 8px;
 }
 
 .visually-hidden {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  border: 0 !important;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .text-box {
