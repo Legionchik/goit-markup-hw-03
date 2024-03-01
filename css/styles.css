@@ -52,7 +52,8 @@ ul {
 .container{
 width: 1158px;
 margin: 0 auto;
-padding: 0 15px;
+padding-left: 15px;
+padding-right: 15px
 }
 
 .menu {
@@ -140,8 +141,8 @@ font-style: normal;
 .social-links { 
   display: flex;
   flex-direction: row;
-  gap: 8px;
   padding: 24px 0;
+  gap: 40px;
 }
 
 
@@ -159,7 +160,7 @@ font-style: normal;
   padding-bottom: 188px;
 }
 
- .box-hero-image .cont {
+ .box-hero-image {
   padding-top: 188px;
   padding-bottom: 188px;
 }
