@@ -155,21 +155,14 @@ font-style: normal;
 
 /* <!-- Section-1 --> */
 
-.light-bg {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
- .box-hero-image {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
 
 .box-hero-image {
 box-sizing: content-box;
 width: 1440px;
 height: 600px;
 background: #2e2f42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .hero-image {
