@@ -36,13 +36,10 @@ ul {
 
 /* top-line-header */
 .page-header {
-  
   border-bottom: 1px solid #e7e9fc;
-  }
-
-  .page-header {
-    border-bottom: 1px solid #e7e9fc;
-  }
+  justify-content: space-between;
+  align-items: baseline;
+}
 
   .container{
    width: 1158px;
@@ -56,8 +53,6 @@ ul {
  align-items: center;
  gap: 40px;
  padding: 24px 0;
- justify-content: space-between;
- align-items: baseline;
 }
 
 .logo {
