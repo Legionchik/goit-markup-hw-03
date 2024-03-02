@@ -398,4 +398,5 @@ color: #f4f4fd;
 }
 .logo {
     margin-bottom: 16px; 
+    display: inline-block; 
 }
