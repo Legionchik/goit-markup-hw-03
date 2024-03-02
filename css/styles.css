@@ -401,6 +401,7 @@ color: #f4f4fd;
 
 .studio-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 .logo {
   display: inline-block;
