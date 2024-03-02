@@ -35,27 +35,27 @@ ul {
 }
 
 /* top-line-header */
-.page-header .container {
+.page-header {
     border-bottom: 1px solid #e7e9fc;
   }
 
-  .page-header {
-    border-bottom: 1px solid #e7e9fc;
-  }
+ .page-header {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex; 
+  justify-content: space-between;
+  align-items: baseline;
+}
 
-.container{
+.container {
  width: 1158px;
  margin: 0 auto;
  padding: 0 15px;
- display: flex; 
- justify-content: space-between;
- align-items: baseline;
-}
+ }
 
 
 .menu {
-display: flex;
-flex-direction: row;
+ display: flex;
+ flex-direction: row;
  align-items: center;
  gap: 40px;
  padding: 24px 0;
