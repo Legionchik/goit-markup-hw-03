@@ -45,7 +45,6 @@ ul {
    width: 1158px;
    margin: 0 auto;
    padding: 0 15px;
-   display: flex;
   }
 
 .menu {
@@ -54,6 +53,7 @@ ul {
  align-items: center;
  gap: 40px;
  padding: 24px 0;
+ display: flex;
 }
 
 .logo {
