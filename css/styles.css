@@ -43,15 +43,13 @@ ul {
     border-bottom: 1px solid #e7e9fc;
   }
 
-  .page-header .container{
- display: flex;
+.container{
  width: 1158px;
  margin: 0 auto;
+ padding: 0 15px;
  display: flex; 
  justify-content: space-between;
  align-items: baseline;
- padding-left: 15px;
- padding-right: 15px; 
 }
 
 
