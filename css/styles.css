@@ -35,21 +35,21 @@ ul {
 }
 
 /* top-line-header */
-.page-header {
+.page-header .container {
     border-bottom: 1px solid #e7e9fc;
   }
 
   .page-header {
-   border-bottom: 1px solid #e7e9fc;
-   display: flex; 
-   justify-content: space-between;
-   align-items: baseline;
+    border-bottom: 1px solid #e7e9fc;
   }
 
 .container{
-width: 1158px;
-margin: 0 auto;
-padding: 0 15px;
+ width: 1158px;
+ margin: 0 auto;
+ padding: 0 15px;
+ display: flex; 
+ justify-content: space-between;
+ align-items: baseline;
 }
 
 
