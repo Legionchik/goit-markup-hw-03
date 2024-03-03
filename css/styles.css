@@ -72,6 +72,7 @@ margin-right: 76px;
 padding-top: 24px;
 padding-bottom: 24px;
 }
+
 .studio {
   font-weight: 700;
   font-size: 18px;
@@ -225,8 +226,8 @@ margin-bottom: 8px;
 }
 
 .text-box {
-display: flex;
-gap: 24px;
+ display: flex;
+ gap: 24px;
 }
 
 .text-box-element {
@@ -389,4 +390,5 @@ color: #f4f4fd;
 .studio-footer {
   color: #f4f4fd;
   display: inline-block; 
+  margin-bottom: 16px; 
 }
