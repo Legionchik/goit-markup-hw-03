@@ -1,16 +1,16 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
-main {
+/* main {
   flex-grow: 1;
-}
+} */
+
 img {
 	display: block;
   max-width: 100%;
@@ -24,13 +24,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
-  font-family: "Oswald", sans-serif;
-}
+ }
 
 ul {
-  padding-left: 0%;
+  padding-left: 0;
   list-style-type: none;
   margin: 0;
 }
@@ -40,6 +40,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
   justify-content: space-between;
   align-items: baseline;
+  text-decoration: none;
 }
 
 .container{
@@ -56,7 +57,7 @@ style {
 
 .menu {
  align-items: center;
- padding: 24px 0;
+ /* padding: 24px 0; */
  display: flex;
 }
 
@@ -71,6 +72,7 @@ color: #4d5ae5;
 margin-right: 76px;
 padding-top: 24px;
 padding-bottom: 24px;
+text-decoration: none;
 }
 
 .studio {
@@ -94,26 +96,30 @@ gap: 40px;
 .email-telefon {
     background: #fff;
     color: #434455 ;
-    margin-right: 40px
+    margin-right: 40px;
+    text-decoration: none;
   }
+
   .email-telefon:last-child {
     margin-right: 0;
   }
   /* .menu-nav-index */
   .menu-nav-index{
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-right: 40px;
+    /* color: #2e2f42;
+    margin-right: 40px; */
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+    text-decoration: none;
     }
-  .menu-nav-index:last-child {
+  /* .menu-nav-index:last-child {
     margin-right: 0;
-  }
+  } */
   .menu-nav-index:hover{
     color: #404bbf;
   }
@@ -150,11 +156,13 @@ margin-left: auto;
 
 .box-hero-image {
 box-sizing: content-box;
-width: 1440px;
-height: 600px;
+/* width: 1440px;
+height: 600px; */
 background: #2e2f42;
 padding-top: 188px;
 padding-bottom: 188px;
+
+
 }
 
 .hero-image {
@@ -163,9 +171,12 @@ padding-bottom: 188px;
   font-size: 56px;
   line-height:  1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
   max-width: 496px; 
+
+  margin: 0 auto;
+  padding-bottom: 48px;
+  
   }
 .botton {
   background-color: #4D5AE5;
@@ -181,6 +192,8 @@ padding-bottom: 188px;
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
+  
 
 }
 
@@ -200,8 +213,8 @@ padding-bottom: 188px;
   padding-bottom: 120px;
 }
 .light-bg {
-  width: 1440px;
-  height: 732px; 
+  /* width: 1440px;
+  height: 732px;  */
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -276,6 +289,8 @@ color: #434455;
 .image {
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4); 
+
 }
 
 .card-info-workers {
@@ -372,8 +387,8 @@ color: #434455;
 
 .footer {
 background: #2e2f42;
-width: 1440px;
-height: 312px;
+/* width: 1440px;
+height: 312px; */
 padding: 100px 0;
 
 }
@@ -385,6 +400,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+
 }
 
 .studio-footer {
